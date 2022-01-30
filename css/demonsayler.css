@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Play:wght@400;700&display=swap');
+body{
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Play', sans-serif;
+    background-image: url(../img/demonsback.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+    padding-bottom: 50px;
+}
+.demons-nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 15px;
+}
+.logo{
+    max-width: 148px;
+    max-height: 148px;
+}
+.div-a{
+    background-color: grey;
+    min-width: 150px;
+    min-height: 40px;
+    text-align: center;
+    border-radius: 30px;
+}
+.demons-nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;  
+    padding-top: 5px;
+}
+.div-a:hover{
+    background-color: transparent;
+    transition-duration: 0.5s;
+}
+.demons-nav a:hover{
+    color: #8A2BE2;
+    transition-duration: 0.5s;
+}
+section{
+    background-color: black;
+    opacity: 0.9;
+}
+.about-anime{
+    padding-top: 60px;
+    color: white;
+    
+}
+.about-anime h2{
+    color: #FF1493;
+    font-size: 54px;
+    text-align: center;
+}
+.about-anime h2 span{
+    color: #8A2BE2;
+}
+.about-anime p{
+    font-size: 20px;
+    text-align: justify;
+}
+.audio-item{
+    text-align: center;
+    padding-top: 50px;
+}
+.audio-item p{
+    font-size: 20px;
+    color: white;
+}
+footer{
+    color: white;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+}
+.footer img{
+    max-width: 16px;
+    max-height: 16px;
+}
+.footer span{
+    font-weight: 600;
+}
+.footer h3{
+    font-size: 24px;
+    padding-top: 20px;
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+.footer a:hover{
+    color: #FF1493;
+    border-bottom: 2px solid #8A2BE2;
+    transition-duration: 0.5s;
+    padding-bottom: 2px;
+}
+.text-footer{
+    text-align: center;
+    font-weight: 500;
+}

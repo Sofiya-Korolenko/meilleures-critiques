@@ -1,0 +1,147 @@
+@media screen and (max-width: 992px){
+    .nav-a{
+        padding-right: 50px;
+    }
+    .about{
+        margin-left: 150px;
+    }
+    .game-img{
+        max-width: 280px;
+        max-height: 180px;
+        min-width: 280px;
+        min-height: 180px;
+    }
+    .serial-img{
+        max-width: 280px;
+        max-height: 180px;
+        min-width: 280px;
+        min-height: 180px;
+    }
+    .anime-img{
+        max-width: 280px;
+        max-height: 180px;
+        min-width: 280px;
+        min-height: 180px;
+    }
+    .film-img{
+        max-width: 280px;
+        max-height: 180px;
+        min-width: 280px;
+        min-height: 180px;
+    }
+    .mult-img{
+        max-width: 280px;
+        max-height: 180px;
+        min-width: 280px;
+        min-height: 180px;
+    }
+}
+@media screen and (max-width: 768px){
+    .nav-a{
+        padding-right: 15px;
+        font-size: 18px;
+    }
+    .about{
+        margin-left: 25px;
+    }
+    .slang{
+        padding-top: 0px;
+        padding-bottom: 550px;
+    }
+    .game-row{
+        display: flex;
+        flex-direction: column;
+    }
+    .box-game{
+        text-align: center;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .game-img{
+        max-width: 350px;
+        max-height: 220px;
+        min-width: 350px;
+        min-height: 220px;
+    }
+    .serial-row{
+        display: flex;
+        flex-direction: column;
+    }
+    .box-serial{
+        text-align: center;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .serial-img{
+        max-width: 350px;
+        max-height: 220px;
+        min-width: 350px;
+        min-height: 220px;
+    }
+    .anime-row{
+        display: flex;
+        flex-direction: column;
+    }
+    .box-anime{
+        text-align: center;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .anime-img{
+        max-width: 350px;
+        max-height: 220px;
+        min-width: 350px;
+        min-height: 220px;
+    }
+    .film-row{
+        display: flex;
+        flex-direction: column;
+    }
+    .box-film{
+        text-align: center;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .film-img{
+        max-width: 350px;
+        max-height: 220px;
+        min-width: 350px;
+        min-height: 220px;
+    }
+    .mult-row{
+        display: flex;
+        flex-direction: column;
+    }
+    .box-mult{
+        text-align: center;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .mult-img{
+        max-width: 350px;
+        max-height: 220px;
+        min-width: 350px;
+        min-height: 220px;
+    }
+}
+@media screen and (max-width: 576px){
+    .navbar{
+        display: flex;
+        flex-direction: column;
+    }
+    .about{
+        margin-left: 5px;
+    }
+    .about-game p{
+        font-size: 16px;
+    }
+    .about-serial p{
+        font-size: 16px;
+    }
+    .about-anime p{
+        font-size: 16px;
+    }
+    section{
+        opacity: 0.6;
+    }
+}

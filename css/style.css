@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Play:wght@400;700&display=swap');
+body{
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Play', sans-serif;
+}
+header{
+    background-image: url(../img/back1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logo-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+}
+.logo{
+    max-width: 148px;
+    max-height: 148px;
+}
+.nav-a{
+    text-decoration: none;
+    color: white;
+    padding-right: 103px;
+    font-size: 20px;
+}
+.nav-a:hover{
+    color: #FF1493;
+    transition-duration: 0.5s;
+}
+.slang{
+    text-align: center;
+    padding-top: 100px;
+    color: white;
+    padding-bottom: 650px;
+}
+.slang:hover{
+    color: #8A2BE2;
+    transition-duration: 0.5s;
+}
+.slang-title{
+    font-size: 84px;
+}
+.carousel{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.s-about{
+    background-color: #051d29;
+}
+.about{
+    max-width: 650px;
+    text-align: justify;
+    margin-left: 300px;
+    padding-top: 100px;
+    font-size: 20px;
+    padding-bottom: 100px;
+    color: white;
+}
+.about span{
+    color: #8A2BE2;
+    font-weight: 600;
+}
+.about h2{
+    text-align: center;
+    font-size: 54px;
+    color: #FF1493;
+}
+footer{
+    color: white;
+    background-color: #051d29;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+}
+.footer img{
+    max-width: 16px;
+    max-height: 16px;
+}
+.footer span{
+    font-weight: 600;
+}
+.footer h3{
+    font-size: 24px;
+    padding-top: 20px;
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+.footer a:hover{
+    color: #FF1493;
+    border-bottom: 2px solid #8A2BE2;
+    transition-duration: 0.5s;
+    padding-bottom: 2px;
+}
+.text-footer{
+    text-align: center;
+    font-weight: 500;
+}
